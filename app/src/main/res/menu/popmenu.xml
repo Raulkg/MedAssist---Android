@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:title="Delete item"
+        android:id="@+id/deleteitem"
+        app:showAsAction="always"
+        android:icon="@drawable/email"
+        android:background="@android:color/transparent"
+        ></item>
+    <item
+        android:title="Duplicate item"
+        android:id="@+id/duplicateitem"
+        app:showAsAction="always"
+        android:icon="@drawable/email"
+        ></item>
+
+</menu>

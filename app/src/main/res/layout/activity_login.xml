@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="firebase.sandesh.firebaseapp.MovieDetailFragment">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/logo"
+        android:background="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:id="@+id/createAccount"
+        android:textSize="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:id="@+id/edit_text_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bottom_border"
+        android:hint="Enter your password"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:layout_marginTop="80dp"
+        android:paddingLeft="15dp"
+        android:drawablePadding="10dp"
+        android:textColor="#616161"
+        android:textColorHint="#AEAEAE"
+        android:textSize="15.3sp"
+        android:layout_below="@+id/createAccount"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:drawableLeft="@drawable/pwd"/>
+
+    <EditText
+        android:id="@+id/edit_text_email"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bottom_border"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        android:nextFocusDown="@+id/edit_text_password"
+        android:paddingLeft="15dp"
+        android:drawablePadding="10dp"
+        android:textColor="#616161"
+        android:textColorHint="#AEAEAE"
+        android:textSize="15.3sp"
+        android:layout_below="@+id/createAccount"
+        android:drawableLeft="@drawable/email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+
+    <com.dd.morphingbutton.MorphingButton
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Create an Account"
+        android:id="@+id/button"
+        android:layout_marginLeft="40dp"
+
+
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/edit_text_password"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have a account ?"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/loginTV"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/login"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:theme="@style/MyButton"
+
+        android:layout_below="@+id/loginTV"/>
+
+
+
+</RelativeLayout>

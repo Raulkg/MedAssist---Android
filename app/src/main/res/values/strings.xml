@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MedAssist</string>
+    <string name="fontname">Caviar_Dreams_Bold.ttf</string>
+    <string name="facebook_app_id">717881098353841</string>
+    <string name="fb_login_protocol_scheme">fb717881098353841</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!--added by kusum -->
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="page_1">Page 1</string>
+    <string name="page_2">Page 2</string>
+    <string name="page_3">Page 3</string>
+
+    <string name="fragment_a1">Fragment A1</string>
+    <string name="fragment_a2">Fragment A2</string>
+    <string name="fragment_a3">Fragment A3</string>
+    <string name="fragment_b1">Fragment B1</string>
+    <string name="fragment_b2">Fragment B2</string>
+    <string name="fragment_b3">Fragment B3</string>
+    <string name="fragment_c1">Fragment C1</string>
+    <string name="fragment_common">Fragment common</string>
+    <string name="next_fragment">Next Fragment</string>
+    <string name="DEVELOPER_KEY">AIzaSyA-3LddQB0eSUua-MQ6FAKnfk85otNCKCI</string>
+
+</resources>

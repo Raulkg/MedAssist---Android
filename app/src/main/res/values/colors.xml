@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C9DE55</color>
+    <color name="colorPrimaryDark">#7D9100</color>
+    <color name="colorAccent">#354242</color>
+    <color name="Green">#C9DE55</color>
+    <color name="ThickGreen">#7D9100</color>
+    <color name="Cream">#FFFF9D</color>
+    <color name="LightBlue">#ACEBAE</color>
+    <color name="DarkBlue">#354242</color>
+    <color name="toolbarTransparent">#00FFFFFF</color>
+    <color name="black_alpha_40">#7D9100</color>
+
+
+</resources>

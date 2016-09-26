@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/master_container"
+    tools:context="com.example.kusum.assignment3.Task1Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/MovieImg"
+        android:layout_gravity="left|top"
+          />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Movie Name"
+        android:textStyle="bold"
+        android:id="@+id/MovieName"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/MovieImg" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" Year"
+        android:id="@+id/year"
+        android:layout_below="@+id/MovieName"
+        android:layout_toEndOf="@+id/MovieImg" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="min"
+        android:id="@+id/min"
+        android:layout_below="@+id/year"
+        android:layout_toEndOf="@+id/MovieImg" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Director:"
+        android:textStyle="bold"
+        android:id="@+id/DirectorN"
+        android:layout_below="@+id/min"
+        android:layout_toEndOf="@+id/MovieImg"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/Director"
+        android:layout_alignTop="@+id/DirectorN"
+        android:layout_toEndOf="@+id/DirectorN" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Cast:"
+        android:id="@+id/Cast"
+        android:layout_below="@+id/DirectorN"
+        android:layout_toEndOf="@+id/MovieImg"
+        android:textStyle="bold"
+
+        android:layout_marginTop="31dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Cast Name"
+        android:id="@+id/CastName"
+        android:layout_alignTop="@+id/Cast"
+        android:layout_toEndOf="@+id/year" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+
+        android:layout_below="@+id/MovieImg"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="49dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/RatNum"
+
+        android:layout_alignTop="@+id/ratingBar"
+        android:layout_toEndOf="@+id/DirectorN"
+        android:layout_alignBottom="@+id/ratingBar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Description"
+        android:id="@+id/Description"
+        android:layout_below="@+id/ratingBar"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

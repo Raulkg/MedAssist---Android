@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/Green"
+    android:layout_gravity="center"
+    android:id="@+id/lin_lay"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/logo"
+        android:background="@mipmap/ic_launcher" />
+
+    <info.theh2o.rahul.medassist.HeartBeatView
+        android:id="@+id/hb1"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:layout_weight="0.12" />
+
+    <TextView
+        android:id="@+id/splashtext"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:text="MedAssist"
+        android:textSize="26dp"
+        android:textIsSelectable="false"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center" />
+
+
+    <TextView
+        android:id="@+id/copyrt"
+        android:layout_width="309dp"
+        android:layout_height="51dp"
+        android:text="Never Miss your medicine again..."
+        android:textSize="16dp"
+        android:textIsSelectable="false"
+        android:textAlignment="center"
+        android:paddingTop="14dp" />
+
+
+</LinearLayout>

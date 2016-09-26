@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "681735493257",
+    "project_id": "medassist-1291"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681735493257:android:3db33e7e113795d5",
+        "android_client_info": {
+          "package_name": "info.theh2o.rahul.medassist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681735493257-88d46mg0vtnv3dcd1a7s3tvq8ahotgp5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.theh2o.rahul.medassist",
+            "certificate_hash": "18739D5E81477C859B8178566F77FD6B24315DAE"
+          }
+        },
+        {
+          "client_id": "681735493257-vo20fcof9qipkauv5jac77p3hsqbvat0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbAU5xq6Z5jaIn5KniK3BlxbDD8Xxybfk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
